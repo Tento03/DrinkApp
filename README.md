@@ -7,8 +7,9 @@ Detail Minuman: Pengguna dapat melihat detail dari setiap minuman yang ditampilk
 Simpan Minuman ke Favorit: Pengguna dapat menandai minuman favorit, yang akan disimpan secara lokal menggunakan Room Database.
 Tampilkan Minuman Favorit: Pengguna dapat melihat daftar minuman yang telah disimpan ke favorit bahkan tanpa koneksi internet.
 Teknologi yang Digunakan
-Retrofit: Untuk mengambil data minuman dari API eksternal.
-Room: Untuk menyimpan dan mengelola data minuman favorit secara lokal.
-ViewModel & LiveData: Untuk memisahkan logika UI dari data dan melakukan pembaruan UI secara efisien.
-RecyclerView: Untuk menampilkan daftar minuman.
-Coroutines: Untuk menangani operasi asynchronous secara efisien.
+1. Retrofit: Untuk mengambil data minuman dari API eksternal.
+2. Room: Untuk menyimpan dan mengelola data minuman favorit secara lokal.
+3. ViewModel & LiveData: Untuk memisahkan logika UI dari data dan melakukan pembaruan UI secara efisien.
+4. RecyclerView: Untuk menampilkan daftar minuman.
+5. Coroutines: Untuk menangani operasi asynchronous secara efisien.
+6. Design Patter MVVM (Model View ViewModel)
